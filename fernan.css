@@ -3,8 +3,3 @@ h1, footer, h2 {
     align-items: center;
     justify-content: center;    
 }
-#pic {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
