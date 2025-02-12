@@ -1,5 +1,36 @@
-h1, footer, h2 {
+h1, footer, h2, #ailandesc, .announcement, #ailanblock{
     display: flex;
     align-items: center;
     justify-content: center;    
 }
+@media (min-width: 768px) {
+    #ailanblock { /* Target the specific container */
+        position: relative; /* Essential for absolute positioning */
+        min-height: 100vh;
+        min-width: 100vh;
+    }
+}
+@media (max-width: 767px) {
+    #ailanblock { /* Target the specific container */
+        position: relative; /* Essential for absolute positioning */
+        min-height: 50vh;
+        min-width: 50vh;
+    }
+}
+#ailanblock::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/12.jpeg"); /* Your image path */
+    background-size: contain; /* Or contain, auto, etc. */
+    background-repeat: no-repeat;
+    z-index: -1; /* Behind the content */
+}
+#ailanletra {
+    color: rgba(255, 255, 255, 0.7);
+    display:inline-block;
+    align-items: center;
+    justify-content: center;}
