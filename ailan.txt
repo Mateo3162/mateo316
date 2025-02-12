@@ -4,3 +4,5 @@ i = foto2
 l = foto3
 a = foto4
 n = foto5
+
+juegos
