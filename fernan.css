@@ -3,18 +3,25 @@ h1, footer, h2, #ailandesc, .announcement, #ailanblock{
     align-items: center;
     justify-content: center;    
 }
-@media (min-width: 768px) {
+@media (min-width: 767.99px) {
     #ailanblock { /* Target the specific container */
         position: relative; /* Essential for absolute positioning */
         min-height: 90vh;
         min-width: 40vh;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
     #ailanblock { /* Target the specific container */
         position: relative; /* Essential for absolute positioning */
         min-height: 50vh;
         min-width: 50vh;
+    }
+    .border-mobile {
+        border-bottom: 1px solid #6c757d; /* Or another Bootstrap color if you know it */
+        border-top: 1px solid #6c757d;
+    }
+    .border-mobile .nav-link:first-child {
+        border-bottom: 1px solid #6c757d;
     }
 }
 #ailanblock::before {
@@ -35,4 +42,8 @@ h1, footer, h2, #ailandesc, .announcement, #ailanblock{
     align-items: center;
     justify-content: center;
     margin: 0 8px;
+}
+.border-mobile .nav-link {
+    border-bottom: none; /* Remove default bottom border */
+    border-top: none; /* Remove default top border */
 }
