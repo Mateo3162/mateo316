@@ -27,7 +27,8 @@ h1, footer, h2, #ailandesc, .announcement, #ailanblock{
         border-bottom: 1px solid #6c757d;
         border-top: 1px solid #6c757d;
     }
-    .border-mobile .nav-link:first-child {
+    .border-mobile .nav-link:nth-child(1),
+    .border-mobile .nav-link:nth-child(2) {
         border-bottom: 1px solid #6c757d;
     }
 }
