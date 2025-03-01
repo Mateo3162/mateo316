@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="yes.js"> </script>
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <meta charset="UTF-8">
@@ -10,34 +11,43 @@
     <link rel="icon" href="images/5.jpeg" type="image/icon type">
 </head>
 <body class="d-flex flex-column min-vh-100">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
     <header>
-        <a class="nav-link active" href="index.html"><h1>AILAN PAGE IS LIVE NOW!!!</h1></a>
-        <a class="announcement" href="a1.html">CLICK HERE</a>
+      <a class="nav-link active" href="index.php"><h1 class="text-center">AILAN PAGE IS LIVE NOW!!!</h1></a>
+      <a class="announcement" href="a1.php">CLICK HERE</a>
     </header>
+
     <nav class="navbar navbar-expand-lg bg-terciary">
       <div class="container-fluid">
-        <a class="navbar-brand me-auto" href="index.html">
-          <img src="images/5.jpeg" class="rounded-circle  me-2" alt="Bootstrap" width="60" height="60">
+        <a class="navbar-brand me-auto" href="index.php">
+          <img src="images/5.jpeg" class="rounded-circle me-2" alt="Bootstrap" width="60" height="60">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-      </button> 
+        </button> 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav border-mobile">
-            <a class="nav-link active mx-2" href="g1.html">Demacrado</a>
-            <a class="nav-link active mx-2" href="a1.html">Ailan</a>
-            <a class="nav-link disabled mx-2" href="thanks.html">Thanks</a>   
+            <a class="nav-link active mx-2" href="g1.php">Demacrado</a>
+            <a class="nav-link disabled mx-2" href="a1.php">Ailan</a>
+            <a class="nav-link active mx-2" href="thanks.php">Thanks</a>
           </div>
+          <button type="button" class="btn btn-danger m-2" onclick="logout()">Logout</button>
         </div>
       </div>
-  </nav>
-    <div class="ma-auto" id="thanks">
-        <p>Special thanks to everyone that visits the page.</p>
-        <p>I really appreciate you and I hope you enjoy it.</p>
-        <p>&#60;3</p>
-        <img src="images/thanks.gif" class="mx-auto img-fluid">
+    </nav>
+    
+    <p id="ailandesc"> Click Each Letter In Ailan's Name For A Surprise</p>
+
+    <div id="ailanblock" class="container-fluid">
+      <a target="_blank" href="images/7.jpeg"><h2 id="ailanletra">A</h2></a>
+      <a target="_blank" href="images/8.jpeg"><h2 id="ailanletra">I</h2></a>
+      <a target="_blank" href="images/9.jpeg"><h2 id="ailanletra">L</h2></a>
+      <a target="_blank" href="images/10.jpeg"><h2 id="ailanletra">A</h2></a>
+      <a target="_blank" href="images/11.jpeg"><h2 id="ailanletra">N</h2></a>
     </div>
+
     <footer class="mt-auto">© 2025, mateo316</footer>
 </body>
 </html>

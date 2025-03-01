@@ -1,4 +1,4 @@
-h1, footer, h2, #ailandesc, .announcement, #ailanblock{
+footer, #ailandesc, .announcement, #ailanblock{
     display: flex;
     align-items: center;
     justify-content: center;    

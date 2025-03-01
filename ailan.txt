@@ -1,3 +1,1 @@
 juegos
-
-borders dont show up on landscape mobile mode, fix (probable value error).
